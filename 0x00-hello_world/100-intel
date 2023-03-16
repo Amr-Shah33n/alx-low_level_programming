@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -S -marchtype=i386
+gcc $CFILE -S -march=i386
