@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CPATH -c
+gcc $CFILE -S -o ${CFILE/.c/.o}
