@@ -9,17 +9,17 @@ void jack_bauer(void)
 {
 	int i, j, k, l;
 
-	for (int i = 0; i < 3; i++)
+	for (i = 0; i < 3; i++)
 	{
-		for (int j = 0; j < 10; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (i == 2 && j > 3)
 			{
 				break;
 			}
-			for (int k = 0; k < 6; k++)
+			for (k = 0; k < 6; k++)
 			{
-				for (int l = 0; l < 10; l++)
+				for (l = 0; l < 10; l++)
 				{
 					_putchar('0' + i);
 					_putchar('0' + j);
