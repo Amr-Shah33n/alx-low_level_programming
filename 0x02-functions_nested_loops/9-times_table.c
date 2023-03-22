@@ -18,13 +18,13 @@ void times_table(void)
 
 			if (first_digit != 0)
 			{
-				putchar('0' + first_digit);
+				_putchar('0' + first_digit);
 			}
-			putchar('0' + second_digit);
+			_putchar('0' + second_digit);
 			if (j != 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		putchar(10);
