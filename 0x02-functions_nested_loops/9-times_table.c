@@ -29,7 +29,7 @@ void times_table(void)
 			}
 			else
 			{
-				_putcahr(' ');
+				_putchar(' ');
 			}
 			_putchar('0' + second_digit);
 			if (j != 9)
