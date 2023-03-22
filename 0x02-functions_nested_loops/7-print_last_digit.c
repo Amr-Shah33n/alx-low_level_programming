@@ -12,6 +12,7 @@ int print_last_digit(int n)
 	int rem = n % 10;
 
 	int abs_rem;
+
 	if (rem >= 0)
 	{
 		abs_rem = rem;
