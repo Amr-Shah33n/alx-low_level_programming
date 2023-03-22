@@ -16,16 +16,25 @@ void times_table(void)
 			int first_digit = mul / 10;
 			int second_digit = mul % 10;
 
+			if (j == 0)
+			{
+				_putchar('0');
+				_putchar(',');
+				continue;
+			}
+			_putchar(' ');
 			if (first_digit != 0)
 			{
 				_putchar('0' + first_digit);
+			}
+			else
+			{
+				_putcahr(' ');
 			}
 			_putchar('0' + second_digit);
 			if (j != 9)
 			{
 				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
 			}
 		}
 		_putchar(10);
