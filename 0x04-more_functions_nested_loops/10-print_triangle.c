@@ -22,10 +22,13 @@ void print_triangle(int size)
 				_putchar('#');
 			}
 		}
-		_putchar(10);
-		if (size <= 0)
+		if (i != size - 1)
 		{
 			_putchar(10);
 		}
+	}
+	if (size <= 0)
+	{
+		_putchar(10);
 	}
 }
