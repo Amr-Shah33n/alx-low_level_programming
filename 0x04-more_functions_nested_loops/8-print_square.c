@@ -2,10 +2,10 @@
 
 /**
  * print_square - print n by n square
- * @n: input square size
+ * @size: input square size
  * Return: void return
  */
-void print_square(int n)
+void print_square(int size)
 {
 	int i, j;
 
