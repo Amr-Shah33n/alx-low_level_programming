@@ -1,13 +1,15 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * print_line - prints _ n times followed by a new line
- *
+ * @n: Integer, number of repetitions
  * Return: void
  */
 void print_line(int n)
 {
-	for (int i = 0; i < n; i++)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
 		_putchar('_');
 	}
