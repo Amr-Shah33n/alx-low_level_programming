@@ -18,9 +18,16 @@ void puts2(char *str)
 	}
 	_putchar(10);
 }
+/**
+ * _strlen - returns size of string
+ * @s: pointer to input string
+ *
+ * Return: Int string size
+ */
 int _strlen(char *s)
 {
 	int i = 0;
+
 	while (*s != '\0')
 	{
 		s++;
