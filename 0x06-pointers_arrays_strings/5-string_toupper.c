@@ -5,7 +5,7 @@
  * @dest: string input
  * Return: pointer to uppercase string
  */
-char *str_toupper(char *dest)
+char *string_toupper(char *dest)
 {
 	char *start = dest;
 
