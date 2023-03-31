@@ -13,7 +13,7 @@ char *cap_string(char *dest)
 	{
 		if ((*dest == '\t' || *dest == '\n' || *dest == ' ' || *dest == ';'
 					|| *dest == '.' || *dest == ',' || *dest == '(' || *dest == ')'
-					|| *dest == '{' || *dest == '}'
+					|| *dest == '{' || *dest == '}' || *dest == '!'
 					|| *dest == '?' || *dest == '"') && *(dest + 1) != '\0')
 		{
 			if (*(dest + 1) >= 97 && *dest <= 122)
