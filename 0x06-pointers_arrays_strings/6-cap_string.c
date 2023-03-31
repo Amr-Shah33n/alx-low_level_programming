@@ -11,6 +11,13 @@ char *cap_string(char *dest)
 
 	while (*dest != '\0')
 	{
+		if (dest == start)
+		{
+			if (*dest >= 97 && *dest <= 122)
+			{
+				*dest = *dest - 32;
+			}
+		}
 		if ((*dest == '\t' || *dest == '\n' || *dest == ' ' || *dest == ';'
 					|| *dest == '.' || *dest == ',' || *dest == '(' || *dest == ')'
 					|| *dest == '{' || *dest == '}' || *dest == '!'
