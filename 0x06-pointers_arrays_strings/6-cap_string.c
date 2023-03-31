@@ -16,7 +16,7 @@ char *cap_string(char *dest)
 					|| *dest == '{' || *dest == '}' || *dest == '!'
 					|| *dest == '?' || *dest == '"') && *(dest + 1) != '\0')
 		{
-			if (*(dest + 1) >= 97 && *dest <= 122)
+			if (*(dest + 1) >= 97 && *(dest + 1) <= 122)
 			{
 				*(dest + 1) = *(dest + 1) - 32;
 			}
