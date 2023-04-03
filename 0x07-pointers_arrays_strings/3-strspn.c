@@ -2,9 +2,9 @@
 
 /**
  * _strspn - Checks if string s has c and returns substring starting from c
- * @s: input pointer
- * @accept: number of bytes to fill
- * Return: returns pointer to substring if char is found and null if not
+ * @s: input pointer to a string
+ * @accept: acceptable string to check
+ * Return: returns index of char that does not match any of accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
