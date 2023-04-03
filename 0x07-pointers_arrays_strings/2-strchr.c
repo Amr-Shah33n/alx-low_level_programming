@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - Checks if string s has c and returns substring starting from c
@@ -18,6 +19,5 @@ char *_strchr(char *s, char c)
 		}
 		p++;
 	}
-	*p = '0';
-	return (p);
+	return NULL;
 }
