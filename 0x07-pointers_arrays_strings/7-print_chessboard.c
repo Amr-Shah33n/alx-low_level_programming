@@ -19,9 +19,6 @@ void print_chessboard(char (*a)[8])
 				_putchar(a[i][j]);
 			}
 		}
-		if (i < 2 || i > 5)
-		{
-			_putchar(10);
-		}
+		_putchar(10);
 	}
 }
