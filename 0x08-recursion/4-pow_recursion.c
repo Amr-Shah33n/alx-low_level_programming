@@ -4,7 +4,7 @@
  * _pow_recursion - uses recursion to return x power y
  * @x: base int
  * @y: power int
- * Return - int result of x power y
+ * Return: int result of x power y
  **/
 int _pow_recursion(int x, int y)
 {
