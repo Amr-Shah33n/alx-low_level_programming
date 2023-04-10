@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	amt = atoi(argv[n]);
+	amt = atoi(argv[1]);
 	if (amt <= 0)
 	{
 		printf("%i\n", 0);
