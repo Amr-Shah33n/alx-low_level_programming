@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 	amt = atoi(argv[n]);
 	if (amt <= 0)
 	{
-		printf("0\n");
+		printf("%i\n", 0);
 		return (0);
 	}
 	printf("%i\n", min_cents(amt));
