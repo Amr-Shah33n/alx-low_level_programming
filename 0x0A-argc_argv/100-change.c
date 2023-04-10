@@ -4,7 +4,7 @@
 /**
  * min_cents - returns min number of cents recursively
  * @amt: input amount
- * Return - number
+ * Return: min number of needed coins
  **/
 int min_cents(int amt)
 {
@@ -34,7 +34,7 @@ int min_cents(int amt)
  * main - takes input argument and outputs minumum change needed
  * @argc: count of input arguments
  * @argv: array of input arguments
- * Retrun - 0 on success 1 on error
+ * Return: 0 on success 1 on error
  **/
 int main(int argc, char *argv[])
 {
