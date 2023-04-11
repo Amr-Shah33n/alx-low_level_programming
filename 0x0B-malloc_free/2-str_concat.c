@@ -22,8 +22,7 @@ int _strlen(char *s)
 /**
  * str_concat - concates two input strings
  * @s1: string input 1
- * @s2: string input 2 
- *
+ * @s2: string input 2
  * Return: pointer to concatenated string
  **/
 char *str_concat(char *s1, char *s2)
