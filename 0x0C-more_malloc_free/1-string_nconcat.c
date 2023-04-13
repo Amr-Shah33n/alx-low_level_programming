@@ -30,7 +30,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *a, *p;
 	unsigned int size, i, j, n1, n2;
-
 	if (s1 == NULL)
 	{
 		n1 = 0;
