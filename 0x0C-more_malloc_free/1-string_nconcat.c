@@ -29,12 +29,9 @@ unsigned int _strlen(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *a, *p;
-	unsigned int size, i, j, n1, n2;
-	if (s1 == NULL)
-	{
-		n1 = 0;
-	}
-	else
+	unsigned int size = 0, i = 0, j = 0, n1 = 0, n2 = 0;
+
+	if (s1 != NULL)
 	{
 		n1 = _strlen(s1);
 	}
