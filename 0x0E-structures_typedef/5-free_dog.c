@@ -7,10 +7,9 @@
  *
  * Return: Void, initializes values no return
  **/
-void free_dog(struct dog_t *d)
+void free_dog(dog_t *d)
 {
 	free(d->name);
-	free(d->age);
 	free(d->owner);
 	free(d);
 }
