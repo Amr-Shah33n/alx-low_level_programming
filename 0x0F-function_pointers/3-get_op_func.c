@@ -3,7 +3,7 @@
 
 /**
  * get_op_func - return function of input operator
- * @s - operator
+ * @s: operator
  * Return: operation function
  **/
 int (*get_op_func(char *s))(int, int)
