@@ -37,8 +37,8 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	if (*head == NULL)
 	{
-		end_node->str = val;
-		end_node->len = strlen(val);
+		end_node->str = (str != NULL) ? val : NULL;
+		end_node->len = (str != NULL) ? strlen(val) : 0;
 		*head = end_node;
 		return (end_node);
 	}
@@ -50,7 +50,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		i++;
 	}
 	tmp->next = end_node;
-	end_node->str = val;
-	end_node->len = strlen(val);
+	end_node->str = (str != NULL) ? val : NULL;
+	end_node->len = (str != NULL) ? strlen(val) : 0;
 	return (end_node);
 }
