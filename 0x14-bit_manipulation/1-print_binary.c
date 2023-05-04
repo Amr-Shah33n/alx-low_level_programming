@@ -24,7 +24,7 @@ void print_helper(unsigned long int n)
  * @n: input number
  * Return: void
  **/
-void print_binary(unsigned long int n);
+void print_binary(unsigned long int n)
 {
 	if (n == 0 || n == 1)
 	{
